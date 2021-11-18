@@ -1,10 +1,13 @@
 import './home.css';
+import { homeObjOne } from './Data';
+import Hero from '../shared/Hero';
 
-const Home = () => (
-  <div className="home">
-    <h1>Home Page</h1>
-    
-  </div>
-)
+const Home = () => {
+  return (
+    <>
+      <Hero {...homeObjOne} />
+    </>
+  )
+}
 
 export default Home;
