@@ -3,7 +3,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   head: "Hi! I'm Tyler",
-  desc: "A full-stack developer with an vast knowledge of ReactJS, Ruby on Rails and PostgreSQL",
+  desc: "A full-stack developer with a vast knowledge of ReactJS, Ruby on Rails and PostgreSQL",
   btnLabel: "Find Out More",
   imgLeft: '',
   img: 'images/memoji.png',
