@@ -10,50 +10,38 @@ export const homeObjOne = {
   alt: 'Photo of me'
 } 
 
-// export const homeObjTwo = {
-//   lightBg: ,
-//   lightText: ,
-//   lightTextDesc: ,
-//   head: ,
-//   desc: ,
-//   btnLabel: ,
-//   imgLeft: ,
-//   img: ,
-//   alt: 
-// } 
+export const homeObjTwo = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: true,
+  head: "About Me",
+  desc: "lorem ipsum",
+  btnLabel: "Contact Me",
+  imgLeft: 'start',
+  img: '',
+  alt: 'Photo of Me'
+} 
 
-// export const homeObjThree = {
-//   lightBg: ,
-//   lightText: ,
-//   lightTextDesc: ,
-//   head: ,
-//   desc: ,
-//   btnLabel: ,
-//   imgLeft: ,
-//   img: ,
-//   alt: 
-// } 
+export const homeObjThree = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: false,
+  head: "Skills",
+  desc: "Here are some of the things I'm using to continually build brain matter",
+  btnLabel: '',
+  imgLeft: '',
+  img: '',
+  alt: ''
+} 
 
-// export const homeObjFour = {
-//   lightBg: ,
-//   lightText: ,
-//   lightTextDesc: ,
-//   head: ,
-//   desc: ,
-//   btnLabel: ,
-//   imgLeft: ,
-//   img: ,
-//   alt: 
-// } 
-
-// export const homeObjFive = {
-//   lightBg: ,
-//   lightText: ,
-//   lightTextDesc: ,
-//   head: ,
-//   desc: ,
-//   btnLabel: ,
-//   imgLeft: ,
-//   img: ,
-//   alt: 
-// } 
+export const homeObjFour = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: true,
+  head: "Contact Me",
+  desc: "Send me an email and lets talk!",
+  btnLabel: "Contact Me",
+  imgLeft: 'start',
+  img: '',
+  alt: 'Mail'
+} 

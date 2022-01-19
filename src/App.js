@@ -5,13 +5,12 @@ import Navbar from './components/shared/Navbar';
 import Nomatch from './components/shared/Nomatch';
 
 
-
 const App = () => (
   <>
     <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route element={<Nomatch />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/*" element={<Nomatch />} />
       </Routes>  
   </>
 )
