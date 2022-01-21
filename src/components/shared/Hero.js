@@ -8,7 +8,7 @@ const Hero = ({lightBg, lightText, lightTextDesc, head, desc, btnLabel, imgLeft,
       <div className={lightBg ? "home" : "home darkBg"}>
         <div className="container">
           <div 
-            className="row"
+            className="row home-row"
             style={{
               display: "flex",
               flexDirection: imgLeft === "start" ? "row-reverse" : "row",
@@ -31,7 +31,7 @@ const Hero = ({lightBg, lightText, lightTextDesc, head, desc, btnLabel, imgLeft,
             </div>
             <div className="col">
               <div className="img-wrap">
-                <img src={img} alt={alt} />
+                <img src={img} alt={alt} className='image'/>
               </div>
             </div>
           </div>
