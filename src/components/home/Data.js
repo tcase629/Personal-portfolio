@@ -17,7 +17,7 @@ export const homeObjTwo = {
   head: "About Me",
   desc: "lorem ipsum",
   btnLabel: "Contact Me",
-  imgLeft: 'start',
+  imgLeft: 'left',
   img: '',
   alt: 'Photo of Me'
 } 
@@ -41,7 +41,7 @@ export const homeObjFour = {
   head: "Contact Me",
   desc: "Send me an email and lets talk!",
   btnLabel: "Contact Me",
-  imgLeft: 'start',
+  imgLeft: 'left',
   img: '',
   alt: 'Mail'
 } 

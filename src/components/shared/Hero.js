@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
 import './Hero.css';
@@ -11,7 +12,7 @@ const Hero = ({lightBg, lightText, lightTextDesc, head, desc, btnLabel, imgLeft,
             className="row home-row"
             style={{
               display: "flex",
-              flexDirection: imgLeft === "start" ? "row-reverse" : "row",
+              flexDirection: imgLeft === "left" ? "row-reverse" : "row",
             }}
           >
             <div className="col">

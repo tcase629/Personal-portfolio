@@ -1,4 +1,4 @@
-import './home.css';
+
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
 import Hero from '../shared/Hero';
 import Project from '../projects/Project';
