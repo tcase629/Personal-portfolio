@@ -15,10 +15,10 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: true,
   head: "About Me",
-  desc: "lorem ipsum",
+  desc: "I like to make things! Whether it's brewing a delicious beer or building a web application, I find joy in the process of creating things from start to finish.  I’m a Husband and Father of two daughters. I enjoy snowboarding, music, and home brewing craft beer.  I’ve worked in the pharmaceutical industry for years with a background in chemistry, looking to transition into a career in software where I can constantly grow and learn new things.",
   btnLabel: "Contact Me",
   imgLeft: 'left',
-  img: '',
+  img: 'images/nobg-me.png',
   alt: 'Photo of Me'
 } 
 
@@ -28,7 +28,7 @@ export const homeObjThree = {
   lightTextDesc: false,
   head: "Skills",
   desc: "Here are some of the things I'm using to continually build brain matter",
-  btnLabel: '',
+  btnLabel: 'Find Out More',
   imgLeft: '',
   img: '',
   alt: ''
@@ -42,6 +42,6 @@ export const homeObjFour = {
   desc: "Send me an email and lets talk!",
   btnLabel: "Contact Me",
   imgLeft: 'left',
-  img: '',
+  img: 'images/mailbox.png',
   alt: 'Mail'
 } 
