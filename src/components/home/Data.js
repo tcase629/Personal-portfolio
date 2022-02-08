@@ -45,6 +45,18 @@ export const homeObjThree = {
 export const homeObjFour = {
   lightBg: true,
   lightText: false,
+  lightTextDesc: false,
+  head: "My Work",
+  desc: "Just a collection of the many projects I've finished or am currently working on",
+  btnLabel: "Find Out More",
+  imgLeft: 'left',
+  img: '',
+  alt: ''
+} 
+
+export const homeObjFive = {
+  lightBg: false,
+  lightText: true,
   lightTextDesc: true,
   head: "Contact Me",
   desc: "Send me an email and lets talk!",
