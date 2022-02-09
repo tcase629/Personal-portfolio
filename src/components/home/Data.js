@@ -48,9 +48,9 @@ export const homeObjFour = {
   lightTextDesc: false,
   head: "My Work",
   desc: "Just a collection of the many projects I've finished or am currently working on",
-  btnLabel: "Find Out More",
-  imgLeft: 'left',
+  btnLabel: "View Project",
   img: '',
+  card: '',
   alt: ''
 } 
 

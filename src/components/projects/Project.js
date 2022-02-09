@@ -1,7 +1,8 @@
 import './project.css';
 import React from 'react';
+import Button from '../shared/Button';
 
-const Project = ({lightBg, lightText, lightTextDesc, head, desc, imgLeft, img, alt}) => {
+const Project = ({lightBg, lightText, lightTextDesc, head, desc, img, alt, title, cardDesc, btnLabel}) => {
   return (
     <>
       <div className={lightBg ? "home" : "home darkBg"}>
@@ -10,7 +11,7 @@ const Project = ({lightBg, lightText, lightTextDesc, head, desc, imgLeft, img, a
             className="row home-row"
             style={{
               display: "flex",
-              flexDirection: imgLeft === "left" ? "row-reverse" : "row",
+              flexDirection: "column",
             }}
           >
             <div className="col">
@@ -24,8 +25,19 @@ const Project = ({lightBg, lightText, lightTextDesc, head, desc, imgLeft, img, a
               </div>
             </div>
             <div className="col">
-              <div className="img-wrap">
-                <img src={img} alt={alt} className='image'/>
+              <div className="card-wrap">
+                <div className="img-wrap">
+                  <img src={img} alt={alt} className='image'/>
+                </div>
+                <h1 className={lightText ? "heading" : "heading dark"}>
+                  {title}
+                </h1>
+                <p className={ lightTextDesc ? "description" : "description dark"}>
+                  {cardDesc}
+                </p>
+                <Button>
+                    {btnLabel}
+                  </Button>
               </div>
             </div>
           </div>
