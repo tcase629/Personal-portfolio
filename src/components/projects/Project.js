@@ -26,88 +26,88 @@ const Project = ({lightBg, lightText, lightTextDesc, head, desc, img1, img2, img
             </div>
             <div className="col-bottom">
               <div className="card-wrap">
-                <div className="img-wrap">
-                  <img src={img1} alt={alt} className='image'/>
-                </div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {title1}
-                </h1>
-                <p className={ lightTextDesc ? "description" : "description dark"}>
-                  {cardDesc1}
-                </p>
-                <Button>
+                <img src={img1} alt={alt} className='image'/>
+                <div className="card-text">
+                  <h3 className={lightText ? "heading" : "heading dark"}>
+                    {title1}
+                  </h3>
+                  <p className={ lightTextDesc ? "description" : "description dark"}>
+                    {cardDesc1}
+                  </p>
+                  <Button>
                     {btnLabel}
                   </Button>
+                </div>
               </div>
               <div className="card-wrap">
-                <div className="img-wrap">
-                  <img src={img2} alt={alt} className='image'/>
-                </div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {title2}
-                </h1>
-                <p className={ lightTextDesc ? "description" : "description dark"}>
-                  {cardDesc2}
-                </p>
-                <Button>
+                <img src={img2} alt={alt} className='image'/>
+                <div className="card-text">
+                  <h3 className={lightText ? "heading" : "heading dark"}>
+                    {title2}
+                  </h3>
+                  <p className={ lightTextDesc ? "description" : "description dark"}>
+                    {cardDesc2}
+                  </p>
+                  <Button>
                     {btnLabel}
                   </Button>
+                </div>
               </div>
               <div className="card-wrap">
-                <div className="img-wrap">
-                  <img src={img3} alt={alt} className='image'/>
-                </div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {title3}
-                </h1>
-                <p className={ lightTextDesc ? "description" : "description dark"}>
-                  {cardDesc3}
-                </p>
-                <Button>
+                <img src={img3} alt={alt} className='image'/>
+                <div className="card-text">
+                  <h3 className={lightText ? "heading" : "heading dark"}>
+                    {title3}
+                  </h3>
+                  <p className={ lightTextDesc ? "description" : "description dark"}>
+                    {cardDesc3}
+                  </p>
+                  <Button>
                     {btnLabel}
                   </Button>
+                </div>
               </div>
               <div className="card-wrap">
-                <div className="img-wrap">
-                  <img src={img1} alt={alt} className='image'/>
-                </div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {title1}
-                </h1>
-                <p className={ lightTextDesc ? "description" : "description dark"}>
-                  {cardDesc1}
-                </p>
-                <Button>
+                <img src={img1} alt={alt} className='image'/>
+                <div className="card-text">
+                  <h3 className={lightText ? "heading" : "heading dark"}>
+                    {title1}
+                  </h3>
+                  <p className={ lightTextDesc ? "description" : "description dark"}>
+                    {cardDesc1}
+                  </p>
+                  <Button>
                     {btnLabel}
                   </Button>
+                </div>
               </div>
               <div className="card-wrap">
-                <div className="img-wrap">
-                  <img src={img2} alt={alt} className='image'/>
-                </div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {title2}
-                </h1>
-                <p className={ lightTextDesc ? "description" : "description dark"}>
-                  {cardDesc2}
-                </p>
-                <Button>
+                <img src={img2} alt={alt} className='image'/>
+                <div className="card-text">
+                  <h3 className={lightText ? "heading" : "heading dark"}>
+                    {title2}
+                  </h3>
+                  <p className={ lightTextDesc ? "description" : "description dark"}>
+                    {cardDesc2}
+                  </p>
+                  <Button>
                     {btnLabel}
                   </Button>
+                </div>
               </div>
               <div className="card-wrap">
-                <div className="img-wrap">
-                  <img src={img3} alt={alt} className='image'/>
-                </div>
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {title3}
-                </h1>
-                <p className={ lightTextDesc ? "description" : "description dark"}>
-                  {cardDesc3}
-                </p>
-                <Button>
+                <img src={img3} alt={alt} className='image'/>
+                <div className="card-text">
+                  <h3 className={lightText ? "heading" : "heading dark"}>
+                    {title3}
+                  </h3>
+                  <p className={ lightTextDesc ? "description" : "description dark"}>
+                    {cardDesc3}
+                  </p>
+                  <Button>
                     {btnLabel}
                   </Button>
+                </div>
               </div>
             </div>
           </div>

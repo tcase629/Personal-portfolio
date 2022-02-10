@@ -48,7 +48,7 @@ const Skills = ({
               </div>
             </div>
             <div className="col">
-              <div className="img-wrap">
+              <div className="icon-wrap">
                 <img src={img1} alt={alt} className='image'/>
                 <img src={img2} alt={alt} className='image'/>
                 <img src={img3} alt={alt} className='image'/>
