@@ -54,6 +54,23 @@
   line-height: 24px;
 }
 
+.col-bottom {
+  display: flex;
+  width: 900px;
+}
+
+.card-wrap {
+  display: flex;
+  background-color: gray;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px;
+  height: 250px;
+  margin: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
 .img-wrap {
   max-width: 555px;
 }

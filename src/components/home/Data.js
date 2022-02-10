@@ -49,9 +49,16 @@ export const homeObjFour = {
   head: "My Work",
   desc: "Just a collection of the many projects I've finished or am currently working on",
   btnLabel: "View Project",
-  img: '',
-  card: '',
-  alt: ''
+  img1: '',
+  img2: '',
+  img3: '',
+  title1: 'Coach Assist',
+  title2: 'Tip Calculator',
+  title3: 'Four Card Feature',
+  cardDesc1: 'A full-stack application using Ruby on Rails for the back-end, React.js for the front-end, and postgreSQL for the database.  Coach Assist helps keep track of your team!  This application allows you to see players, check schedule of upcoming games and keep your team informed of important dates.',
+  cardDesc2: 'A simple tip calculator built with React.js',
+  cardDesc3: 'A Frontend Mentor project that helped solidify HTML, CSS, and basic layout skills.',
+  alt: 'thumbnail of project'
 } 
 
 export const homeObjFive = {
