@@ -1,116 +1,62 @@
 import './project.css';
 import React from 'react';
 import Button from '../shared/Button';
+import { Link } from 'react-router-dom';
 
-const Project = ({lightBg, lightText, lightTextDesc, head, desc, img1, img2, img3, alt, title1, title2, title3, cardDesc1, cardDesc2, cardDesc3, btnLabel}) => {
+const Project = () => {
   return (
     <>
-      <div className={lightBg ? "home" : "home darkBg"}>
-        <div className="container">
-          <div 
-            className="row home-row"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <div className="col-top">
-              <div className="text-wrap">
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {head}
-                </h1>
-                <p className={ lightTextDesc ? "description" : "description dark"}>
-                  {desc}
-                </p>
+      <div className="project-section">
+        <div className="project-wrapper">
+          <h1 className="project-heading">Projects</h1>
+          <p className="project-summary">A collection of the many projects I've finished or am currently working on</p>
+          <div className="project-container">
+            <Link to={{ pathname: ""}} target="_blank" className="project-card">
+              <div className="project-cardInfo">
+                <img src="" alt="" />
+                <h3>Project Name</h3>
+                <p>project description</p>
+                <ul className="techstack">
+                  <li>React</li>
+                  <li>Ruby</li>
+                  <li>PostgreSQL</li>
+                </ul>
+                <Button buttonSize="btn--wide" buttonColor="primary">
+                  View Project
+                </Button>
               </div>
-            </div>
-            <div className="col-bottom">
-              <div className="card-wrap">
-                <img src={img1} alt={alt} className='image'/>
-                <div className="card-text">
-                  <h3 className={lightText ? "heading" : "heading dark"}>
-                    {title1}
-                  </h3>
-                  <p className={ lightTextDesc ? "description" : "description dark"}>
-                    {cardDesc1}
-                  </p>
-                  <Button>
-                    {btnLabel}
-                  </Button>
-                </div>
+            </Link>
+            <Link to={{ pathname: ""}} target="_blank" className="project-card">
+              <div className="project-cardInfo">
+                <img src="" alt="" />
+                <h3>Project Name</h3>
+                <p>project description</p>
+                <ul className="techstack">
+                  <li>React</li>
+                  <li>Ruby</li>
+                  <li>PostgreSQL</li>
+                </ul>
+                <Button buttonSize="btn--wide" buttonColor="primary">
+                  View Project
+                </Button>
               </div>
-              <div className="card-wrap">
-                <img src={img2} alt={alt} className='image'/>
-                <div className="card-text">
-                  <h3 className={lightText ? "heading" : "heading dark"}>
-                    {title2}
-                  </h3>
-                  <p className={ lightTextDesc ? "description" : "description dark"}>
-                    {cardDesc2}
-                  </p>
-                  <Button>
-                    {btnLabel}
-                  </Button>
-                </div>
+            </Link>
+            <Link to={{ pathname: ""}} target="_blank" className="project-card">
+              <div className="project-cardInfo">
+                <img src="" alt="" />
+                <h3>Project Name</h3>
+                <p>project description</p>
+                <ul className="techstack">
+                  <li>React</li>
+                  <li>Ruby</li>
+                  <li>PostgreSQL</li>
+                </ul>
+                <Button buttonSize="btn--wide" buttonColor="primary">
+                  View Project
+                </Button>
               </div>
-              <div className="card-wrap">
-                <img src={img3} alt={alt} className='image'/>
-                <div className="card-text">
-                  <h3 className={lightText ? "heading" : "heading dark"}>
-                    {title3}
-                  </h3>
-                  <p className={ lightTextDesc ? "description" : "description dark"}>
-                    {cardDesc3}
-                  </p>
-                  <Button>
-                    {btnLabel}
-                  </Button>
-                </div>
-              </div>
-              <div className="card-wrap">
-                <img src={img1} alt={alt} className='image'/>
-                <div className="card-text">
-                  <h3 className={lightText ? "heading" : "heading dark"}>
-                    {title1}
-                  </h3>
-                  <p className={ lightTextDesc ? "description" : "description dark"}>
-                    {cardDesc1}
-                  </p>
-                  <Button>
-                    {btnLabel}
-                  </Button>
-                </div>
-              </div>
-              <div className="card-wrap">
-                <img src={img2} alt={alt} className='image'/>
-                <div className="card-text">
-                  <h3 className={lightText ? "heading" : "heading dark"}>
-                    {title2}
-                  </h3>
-                  <p className={ lightTextDesc ? "description" : "description dark"}>
-                    {cardDesc2}
-                  </p>
-                  <Button>
-                    {btnLabel}
-                  </Button>
-                </div>
-              </div>
-              <div className="card-wrap">
-                <img src={img3} alt={alt} className='image'/>
-                <div className="card-text">
-                  <h3 className={lightText ? "heading" : "heading dark"}>
-                    {title3}
-                  </h3>
-                  <p className={ lightTextDesc ? "description" : "description dark"}>
-                    {cardDesc3}
-                  </p>
-                  <Button>
-                    {btnLabel}
-                  </Button>
-                </div>
-              </div>
-            </div>
-          </div>
+            </Link>
+          </div>  
         </div>
       </div>
     </>

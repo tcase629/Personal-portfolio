@@ -10,7 +10,7 @@ const Home = () => {
       <Hero {...homeObjOne} />
       <Hero {...homeObjTwo} />
       <Skills {...homeObjThree} />
-      <Project {...homeObjFour}/>
+      <Project />
       <Hero {...homeObjFive} />
     </>
   )
