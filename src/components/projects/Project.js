@@ -1,7 +1,6 @@
 import './project.css';
 import React from 'react';
 import Button from '../shared/Button';
-import { Link } from 'react-router-dom';
 
 const Project = () => {
   return (
@@ -11,7 +10,22 @@ const Project = () => {
           <h1 className="project-heading">Projects</h1>
           <p className="project-summary">A collection of the many projects I've finished or am currently working on</p>
           <div className="project-container">
-            <Link to={{ pathname: ""}} target="_blank" className="project-card">
+            <a href="https://github.com/tcase629/tip-calculator" target="_blank" rel="noreferrer" className="project-card">
+              <div className="project-cardInfo">
+                <img src="images/me.jpeg" alt="me" />
+                <h3>Tip Calculator</h3>
+                <p>A simple calculator to calculate how much to tip.</p>
+                <ul className="techstack">
+                  <li>React</li>
+                  <li>Ruby</li>
+                  <li>PostgreSQL</li>
+                </ul>
+                <Button buttonSize="btn--wide" buttonColor="primary">
+                  View Project
+                </Button>
+              </div>
+            </a>
+            <a href="https://github.com/tcase629/coach_assist" target="_blank" rel="noreferrer" className="project-card">
               <div className="project-cardInfo">
                 <img src="" alt="" />
                 <h3>Project Name</h3>
@@ -25,8 +39,8 @@ const Project = () => {
                   View Project
                 </Button>
               </div>
-            </Link>
-            <Link to={{ pathname: ""}} target="_blank" className="project-card">
+            </a>
+            <a href="https://github.com/tcase629/Personal-portfolio" target="_blank" rel="noreferrer" className="project-card">
               <div className="project-cardInfo">
                 <img src="" alt="" />
                 <h3>Project Name</h3>
@@ -40,22 +54,7 @@ const Project = () => {
                   View Project
                 </Button>
               </div>
-            </Link>
-            <Link to={{ pathname: ""}} target="_blank" className="project-card">
-              <div className="project-cardInfo">
-                <img src="" alt="" />
-                <h3>Project Name</h3>
-                <p>project description</p>
-                <ul className="techstack">
-                  <li>React</li>
-                  <li>Ruby</li>
-                  <li>PostgreSQL</li>
-                </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
-                  View Project
-                </Button>
-              </div>
-            </Link>
+            </a>
           </div>  
         </div>
       </div>

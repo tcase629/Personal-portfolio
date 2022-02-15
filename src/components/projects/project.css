@@ -50,12 +50,13 @@
 }
 
 .project-cardInfo h3 {
+  margin-top: 18px;
   margin-bottom: 5px;
   font-size: 24px;
 }
 
 .project-cardInfo p {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   font-size: 14px;
 }
 
