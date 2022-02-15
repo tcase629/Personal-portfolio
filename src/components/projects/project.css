@@ -29,9 +29,10 @@
 }
 
 .project-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .project-heading {
@@ -46,6 +47,16 @@
   padding: 24px;
   align-items: center;
   color: #fff;
+}
+
+.project-cardInfo h3 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.project-cardInfo p {
+  margin-bottom: 24px;
+  font-size: 14px;
 }
 
 .techstack {
@@ -82,5 +93,11 @@
 
   .project-card:hover {
     transform: none;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .project-container {
+    grid-template-columns: 1fr;
   }
 }
