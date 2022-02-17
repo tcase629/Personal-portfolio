@@ -68,6 +68,11 @@
   margin: 0 0 0 10px;
 }
 
+.icon-wrap img {
+  height: 96px;
+  width: 96px;
+}
+
 img {
   border: 0;
   max-width: 100%;

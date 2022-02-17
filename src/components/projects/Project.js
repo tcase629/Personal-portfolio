@@ -5,7 +5,7 @@ import Button from '../shared/Button';
 const Project = () => {
   return (
     <>
-      <div className="project-section">
+      <div className="project-section" id="project">
         <div className="project-wrapper">
           <h1 className="project-heading">Projects</h1>
           <p className="project-summary">A collection of the many projects I've finished or am currently working on</p>

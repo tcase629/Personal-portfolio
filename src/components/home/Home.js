@@ -1,17 +1,19 @@
 
-import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
+import { homeObjOne, homeObjThree } from './Data';
 import Hero from '../shared/Hero';
 import Project from '../projects/Project';
-import Skills from '../shared/Skills';
+import Skills from '../skills/Skills';
+import Contact from '../contact/Contact';
+import About from '../about/About';
 
 const Home = () => {
   return (
     <>
       <Hero {...homeObjOne} />
-      <Hero {...homeObjTwo} />
+      <About />
       <Skills {...homeObjThree} />
       <Project />
-      <Hero {...homeObjFour} />
+      <Contact />
     </>
   )
 }

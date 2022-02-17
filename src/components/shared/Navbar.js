@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import './navbar.css';
 import { FaHandPeace, FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from 'react-icons/lib';
@@ -30,7 +30,7 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#D1CCDC" }}>
         <div className="navbar">
           <div className="navbar-container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <Link activeClass="active" to="home" spy={true} smooth={true} className="navbar-logo" onClick={closeMobileMenu}>
               <FaHandPeace className="nav-icon" />
               TC
             </Link>
@@ -39,13 +39,16 @@ const Navbar = () => {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+                <Link activeClass="active" to="home" spy={true} smooth={true} className="nav-link" onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link 
-                  to="/about"
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
                   className="nav-link"
                   onClick={closeMobileMenu}
                 >
@@ -54,7 +57,10 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link 
-                  to="/projects"
+                  activeClass="active"
+                  to="project"
+                  spy={true}
+                  smooth={true}
                   className="nav-link"
                   onClick={closeMobileMenu}
                 >
@@ -63,12 +69,15 @@ const Navbar = () => {
               </li>
               <li className="nav-btn">
                 {button ? (
-                  <Link to="/contact" className="btn-link">
+                  <Link activeClass="active" to="contact" spy={true} smooth={true} className="btn-link">
                     <Button buttonStyle="btn-outline">CONTACT</Button>
                   </Link>
                 ) : (
                   <Link
-                    to="/contact"
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
                     className="btn-link"
                     onClick={closeMobileMenu}
                   >

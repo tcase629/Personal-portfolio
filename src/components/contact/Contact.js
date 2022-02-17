@@ -1,8 +1,10 @@
 import './contact.css';
+import Hero from '../shared/Hero';
+import { homeObjFour } from '../home/Data';
 
 const Contact = () => (
-  <div className="contact">
-    <h1>Contact Page</h1>
+  <div className="contact" id="contact">
+    <Hero {...homeObjFour} />
   </div>
 )
 

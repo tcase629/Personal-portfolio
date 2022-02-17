@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from './Button';
+import Button from '../shared/Button';
 import './Skills.css';
 
 const Skills = ({
@@ -23,7 +23,7 @@ const Skills = ({
 }) => {
   return (
     <>
-      <div className={lightBg ? "home" : "home darkBg"}>
+      <div className={lightBg ? "home" : "home darkBg"} id="skills">
         <div className="container">
           <div 
             className="row home-row"
