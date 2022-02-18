@@ -1,4 +1,3 @@
-import './contact.css';
 import Hero from '../shared/Hero';
 import { homeObjFour } from '../home/Data';
 

@@ -23,7 +23,7 @@ const Hero = ({lightBg, lightText, lightTextDesc, head, desc, btnLabel, imgLeft,
                 <p className={ lightTextDesc ? "description" : "description dark"}>
                   {desc}
                 </p>
-                <Link to=''>
+                <Link to='/contactForm' target="_blank">
                   <Button>
                     {btnLabel}
                   </Button>
