@@ -40,6 +40,10 @@
   margin-bottom: 24px;
 }
 
+.project-summary {
+  padding-bottom: 30px;
+}
+
 .project-cardInfo {
   display: flex;
   flex-direction: column;

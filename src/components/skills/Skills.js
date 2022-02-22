@@ -1,62 +1,45 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from '../shared/Button';
+import { Button } from '../shared/Button';
 import './Skills.css';
 
-const Skills = ({
-  lightBg, 
-  lightText, 
-  lightTextDesc, 
-  head, 
-  desc, 
-  btnLabel, 
-  imgLeft, 
-  img1,
-  img2, 
-  img3, 
-  img4, 
-  img5, 
-  img6, 
-  img7, 
-  img8, 
-  alt
-}) => {
+const Skills = () => {
   return (
     <>
-      <div className={lightBg ? "home" : "home darkBg"} id="skills">
+      <div className="home darkBg" id="skills">
         <div className="container">
           <div 
             className="row home-row"
             style={{
               display: "flex",
-              flexDirection: imgLeft === "left" ? "row-reverse" : "row",
+              flexDirection: "row",
             }}
           >
             <div className="col">
               <div className="text-wrap">
-                <h1 className={lightText ? "heading" : "heading dark"}>
-                  {head}
+                <h1 className="heading">
+                  Skills
                 </h1>
-                <p className={ lightTextDesc ? "description" : "description dark"}>
-                  {desc}
+                <p className="description">
+                  Here are some of the things I'm using to continually build brain matter
                 </p>
                 <Link to=''>
                   <Button>
-                    {btnLabel}
+                    Find Out More
                   </Button>
                 </Link>
               </div>
             </div>
             <div className="col">
               <div className="icon-wrap">
-                <img src={img1} alt={alt} className='image'/>
-                <img src={img2} alt={alt} className='image'/>
-                <img src={img3} alt={alt} className='image'/>
-                <img src={img4} alt={alt} className='image'/>
-                <img src={img5} alt={alt} className='image'/>
-                <img src={img6} alt={alt} className='image'/>
-                <img src={img7} alt={alt} className='image'/>
-                <img src={img8} alt={alt} className='image'/>
+                <img src='images/JS.png' alt='' className='image'/>
+                <img src='images/css.png' alt='' className='image'/>
+                <img src='images/html.png' alt='' className='image'/>
+                <img src='images/React.png' alt='' className='image'/>
+                <img src='images/ruby.png' alt='' className='image'/>
+                <img src='images/rails.png' alt='' className='image'/>
+                <img src='images/postgresql.png' alt='' className='image'/>
+                <img src='images/git.png' alt='' className='image'/>
               </div>
             </div>
           </div>

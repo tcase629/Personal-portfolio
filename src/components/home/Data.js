@@ -31,7 +31,7 @@ export const homeObjThree = {
   desc: "Here are some of the things I'm using to continually build brain matter",
   btnLabel: 'Find Out More',
   imgLeft: '',
-  img1:'images/JS.png', 
+  img:'images/JS.png', 
   img2:'images/css.png',
   img3:'images/html.png',
   img4:'images/React.png',

@@ -1,4 +1,4 @@
-.home {
+.home { 
   padding: 160px;
   color: #fff;
 }
@@ -12,17 +12,8 @@
   margin-left: -15px;
   margin-right: -15px;
   margin-bottom: -15px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-content: stretch;
-}
-
-.col {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  flex: 1;
-  max-width: 50%;
-  flex-basis: 50%;
 }
 
 .text-wrap {
@@ -96,4 +87,8 @@ img {
     min-width: 100%;
     flex-basis: 100%;
   }
-}
+
+  .icon-wrap {
+    grid-template-columns: auto;
+  }
+} 

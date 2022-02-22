@@ -7,7 +7,7 @@ const SIZES = ['btn-medium', 'btn-large', 'btn-mobile',
 
 const COLOR = ['primary', 'blue', 'red', 'green']
 
-const Button = ({ 
+export const Button = ({ 
   children, 
   type, 
   onClick, 
@@ -30,5 +30,3 @@ const Button = ({
     type={type}>{children}</button>
   )
 }
-
-export default Button;

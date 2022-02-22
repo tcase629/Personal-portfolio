@@ -1,5 +1,5 @@
 
-import { homeObjOne, homeObjThree } from './Data';
+import { homeObjOne } from './Data';
 import Hero from '../shared/Hero';
 import Project from '../projects/Project';
 import Skills from '../skills/Skills';
@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <Hero {...homeObjOne} />
       <About />
-      <Skills {...homeObjThree} />
+      <Skills />
       <Project />
       <Contact />
     </>

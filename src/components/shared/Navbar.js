@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import './navbar.css';
 import { FaHandPeace, FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from 'react-icons/lib';
-import Button from './Button';
+import { Button } from './Button';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
