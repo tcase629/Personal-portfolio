@@ -12,13 +12,13 @@ const Project = () => {
           <div className="project-container">
             <a href="https://github.com/tcase629/tip-calculator" target="_blank" rel="noreferrer" className="project-card">
               <div className="project-cardInfo">
-                <img src="images/me.jpeg" alt="me" />
+                <img className='project-image' src="images/calculator.jpg" alt="calculator" />
                 <h3>Tip Calculator</h3>
-                <p>A simple calculator to calculate how much to tip.</p>
+                <p>A simple calculator to know how much to tip.  Project created to practice vanilla javascript, HTML and CSS layout skills.</p>
                 <ul className="techstack">
                   <li>React</li>
-                  <li>Ruby</li>
-                  <li>PostgreSQL</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
                 </ul>
                 <Button buttonSize="btn--wide" buttonColor="primary">
                   View Project
@@ -27,9 +27,9 @@ const Project = () => {
             </a>
             <a href="https://github.com/tcase629/coach_assist" target="_blank" rel="noreferrer" className="project-card">
               <div className="project-cardInfo">
-                <img src="" alt="" />
-                <h3>Project Name</h3>
-                <p>project description</p>
+                <img className='project-image' src="images/CoachAssist.jpeg" alt="Coach Assist" />
+                <h3>Coach Assist</h3>
+                <p>An application that keeps track of your team! Features include league information, schedules, player stats and even the ability to plan and organize post game treats for the kids.</p>
                 <ul className="techstack">
                   <li>React</li>
                   <li>Ruby</li>
@@ -40,11 +40,11 @@ const Project = () => {
                 </Button>
               </div>
             </a>
-            <a href="https://github.com/tcase629/Personal-portfolio" target="_blank" rel="noreferrer" className="project-card">
+            <a href="https://github.com/henry-doan/potluck-planner-fall21" target="_blank" rel="noreferrer" className="project-card">
               <div className="project-cardInfo">
-                <img src="" alt="" />
-                <h3>Project Name</h3>
-                <p>project description</p>
+                <img className='project-image' src="images/potluck.jpeg" alt="potluck planner" />
+                <h3>Potluck Planner</h3>
+                <p>An application that helps you plan your next potluck with the abilities to assign food items to bring to an event.  App was made as part of a team final portfolio project at DevPoint Labs.</p>
                 <ul className="techstack">
                   <li>React</li>
                   <li>Ruby</li>

@@ -23,7 +23,7 @@ const Skills = () => {
                 <p className="description">
                   Here are some of the things I'm using to continually build brain matter
                 </p>
-                <Link to=''>
+                <Link to='/contactForm' target='_blank'>
                   <Button>
                     Find Out More
                   </Button>

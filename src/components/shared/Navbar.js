@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#D1CCDC" }}>
+      <IconContext.Provider value={{ color: "#a9d09e" }}>
         <div className="navbar">
           <div className="navbar-container">
             <Link activeClass="active" to="home" spy={true} smooth={true} className="navbar-logo" onClick={closeMobileMenu}>

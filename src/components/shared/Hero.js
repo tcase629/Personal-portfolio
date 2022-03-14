@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './hero.css';
 
-const Hero = ({lightBg, lightText, lightTextDesc, head, desc, btnLabel, imgLeft, img, img2, img3, img4, img5, img6, img7, img8, alt}) => {
+const Hero = ({lightBg, lightText, lightTextDesc, head, desc, btnLabel, imgLeft, img, alt}) => {
   return (
     <>
       <div className={lightBg ? "home__hero" : "home__hero darkBg"} id="home">
