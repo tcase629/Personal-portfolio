@@ -70,7 +70,7 @@ const Navbar = () => {
               <li className="nav-btn">
                 {button ? (
                   <Link activeClass="active" to="contact" spy={true} smooth={true} className="btn-link">
-                    <Button buttonStyle="btn-outline">CONTACT</Button>
+                    <Button buttonStyle="btn--outline">CONTACT</Button>
                   </Link>
                 ) : (
                   <Link
@@ -81,7 +81,7 @@ const Navbar = () => {
                     className="btn-link"
                     onClick={closeMobileMenu}
                   >
-                    <Button buttonStyle="btn-outline" buttonSize="btn-mobile">
+                    <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
                       CONTACT
                     </Button>
                   </Link>

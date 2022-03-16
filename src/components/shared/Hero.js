@@ -25,7 +25,7 @@ const Hero = ({lightBg, lightText, lightTextDesc, head, desc, btnLabel, imgLeft,
                   {desc}
                 </p>
                 <Link to='/contactForm' target="_blank">
-                  <Button buttonSize="btn--wide" bottonColor="blue">
+                  <Button buttonSize="btn--wide" buttonColor="blue">
                     {btnLabel}
                   </Button>
                 </Link>

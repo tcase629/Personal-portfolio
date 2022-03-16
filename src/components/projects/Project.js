@@ -20,7 +20,7 @@ const Project = () => {
                   <li>HTML</li>
                   <li>CSS</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
+                <Button buttonSize="btn--wide" buttonColor="blue">
                   View Project
                 </Button>
               </div>
@@ -35,7 +35,7 @@ const Project = () => {
                   <li>Ruby</li>
                   <li>PostgreSQL</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
+                <Button buttonSize="btn--wide" buttonColor="blue">
                   View Project
                 </Button>
               </div>
@@ -50,7 +50,7 @@ const Project = () => {
                   <li>Ruby</li>
                   <li>PostgreSQL</li>
                 </ul>
-                <Button buttonSize="btn--wide" buttonColor="primary">
+                <Button buttonSize="btn--wide" buttonColor="blue">
                   View Project
                 </Button>
               </div>
