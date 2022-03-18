@@ -69,6 +69,23 @@ const Navbar = () => {
               </li>
               <li className="nav-btn">
                 {button ? (
+                  <a href="images/01-Tyler Case DevResume.pdf" className="btn-link">
+                    <Button buttonStyle="btn--outline">RESUME</Button>
+                  </a>
+                ) : (
+                  <a
+                    href="images/01-Tyler Case DevResume.pdf"
+                    className="btn-link"
+                    onClick={closeMobileMenu}
+                  >
+                    <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
+                      RESUME
+                    </Button>
+                  </a>
+                )}
+              </li>
+              <li className="nav-btn">
+                {button ? (
                   <Link activeClass="active" to="contact" spy={true} smooth={true} className="btn-link">
                     <Button buttonStyle="btn--outline">CONTACT</Button>
                   </Link>
