@@ -25,11 +25,11 @@ const Project = () => {
                 </Button>
               </div>
             </a>
-            <a href="https://github.com/tcase629/coach_assist" target="_blank" rel="noreferrer" className="project-card">
+            <a href="https://github.com/tcase629/floppy-potatoes" target="_blank" rel="noreferrer" className="project-card">
               <div className="project-cardInfo">
-                <img className='project-image' src="images/CoachAssist.jpeg" alt="Coach Assist" />
-                <h3>Coach Assist</h3>
-                <p>An application that keeps track of your team! Features include league information, schedules, player stats and even the ability to plan and organize post game treats for the kids.</p>
+                <img className='project-image' src="images/floppy-potatoes.jpeg" alt="Coach Assist" />
+                <h3>Floppy Potatoes</h3>
+                <p>A movie review app that lets you leave a review of your favorite ViewAskew movie!</p>
                 <ul className="techstack">
                   <li>React</li>
                   <li>Ruby</li>
