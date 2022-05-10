@@ -69,7 +69,7 @@ const Navbar = () => {
               </li>
               <li className="nav-btn">
                 {button ? (
-                  <a href="images/01-Tyler Case DevResume.pdf" className="btn-link">
+                  <a href="images/02-TylerCaseDevResume.pdf" className="btn-link">
                     <Button buttonStyle="btn--outline">RESUME</Button>
                   </a>
                 ) : (
